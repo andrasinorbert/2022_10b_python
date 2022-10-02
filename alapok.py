@@ -27,3 +27,5 @@ num= 6.4
 
 print("felfele kerekítés:", int(num)+1)
 
+
+
