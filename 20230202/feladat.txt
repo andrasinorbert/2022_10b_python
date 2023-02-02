@@ -1,0 +1,51 @@
+input.txt:
+Géza 5
+János 15
+Juliska 21
+Virág 9
+Tibi 42
+
+Számoljuk ki a korok átlagát, itjuk bele az átlagot az output.txt fájlba
+
+output.txt:
+Átlag;18.4
+
+Cseréljük le az input.txt " "-eit ";"-re, igazítsuk a kódot
+input.txt:
+Géza;5
+János;15
+Juliska;21
+Virág;9
+Tibi;42
+
+Kóddal írjuk az input.txt utolsó sorába: Károly;65
+input.txt:
+Géza;5
+János;15
+Juliska;21
+Virág;9
+Tibi;42
+Károly;65
+
+Számítsuk ki az új átlagot az output.txt 2. sorába
+output.txt:
+Átlag;18.4
+Átlag;20 (sacc)
+
+
+Kóddal írjuk az input.txt utolsó sorába: Anna;32
+input.txt:
+Géza;5
+János;15
+Juliska;21
+Virág;9
+Tibi;42
+Károly;65
+Anna;32
+
+Számítsuk ki az új átlagot az output.txt 3. sorába
+output.txt:
+Átlag;18.4
+Átlag;20 (sacc)
+Átlag;22 (sacc)
+

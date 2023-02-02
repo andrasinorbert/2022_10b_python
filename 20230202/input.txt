@@ -1,0 +1,7 @@
+Géza;5
+János;15
+Juliska;21
+Virág;9
+Tibi;42
+Károly;65
+Anna;32
