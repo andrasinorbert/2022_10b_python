@@ -29,5 +29,12 @@
 # terminál: pip install pymysql
 import database as DB
 
-DB.insertDB("Jonatán", 15, 200)
+DB.insertDB("Tina", 19, 200)
 
+rows= DB.selectDB(
+        "elso",
+        "*",
+        "kor<18")
+
+for row in rows:
+    print(row)
