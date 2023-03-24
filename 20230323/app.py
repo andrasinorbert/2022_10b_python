@@ -31,6 +31,7 @@ import pymysql
 
 defaults= {
     "DB_HOST": "127.0.0.1",
+    "DB_PORT": 3306,
     "DB_NAME": "10b",
     "DB_TABLE": "elso",
     "DB_UNAME": "10b_user",
@@ -38,6 +39,7 @@ defaults= {
 }
 
 conn=pymysql.connect(host=defaults["DB_HOST"],
+                     port=defaults["DB_PORT"],
                      user=defaults["DB_UNAME"],
                      password=defaults["DB_PASSWD"],
                      database=defaults["DB_NAME"])
