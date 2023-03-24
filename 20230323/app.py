@@ -27,7 +27,7 @@
 
 
 import pymysql
-# pip install pymysql
+# terminál: pip install pymysql
 
 defaults= {
     "DB_HOST": "127.0.0.1",
