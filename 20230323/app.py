@@ -26,27 +26,8 @@
 
 
 
-import pymysql
 # terminál: pip install pymysql
+import database as DB
 
-defaults= {
-    "DB_HOST": "127.0.0.1",
-    "DB_PORT": 3306,
-    "DB_NAME": "10b",
-    "DB_TABLE": "elso",
-    "DB_UNAME": "10b_user",
-    "DB_PASSWD": "10b_user"
-}
-
-conn=pymysql.connect(host=defaults["DB_HOST"],
-                     port=defaults["DB_PORT"],
-                     user=defaults["DB_UNAME"],
-                     password=defaults["DB_PASSWD"],
-                     database=defaults["DB_NAME"])
-
-cursor = conn.cursor()
-sql = "INSERT INTO `elso`(`Név`, `Kor`, `Magasság`) VALUES ('Józsi', '15', '142');"
-cursor.execute(sql)
-conn.commit()
-conn.close()
+DB.insertDB("Jonatán", 15, 200)
 
