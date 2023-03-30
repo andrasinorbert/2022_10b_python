@@ -28,13 +28,17 @@
 
 # terminál: pip install pymysql
 import database as DB
+import person as P
 
-DB.insertDB("Tina", 19, 200)
+# DB.insertDB("Tina", 19, 200)
 
-rows= DB.selectDB(
+p= P.Person("", "Emma", 9, 122)
+
+DB.insertDB(person=p, tablename="elso")
+
+persons= DB.selectDB(
         "elso",
-        "*",
-        "kor<18")
+        "*")
 
-for row in rows:
-    print(row)
+for person in persons:
+    print(person.kor)
