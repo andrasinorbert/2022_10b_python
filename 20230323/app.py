@@ -41,4 +41,4 @@ persons= DB.selectDB(
         "*")
 
 for person in persons:
-    print(person.kor)
+        print(person.kor)
